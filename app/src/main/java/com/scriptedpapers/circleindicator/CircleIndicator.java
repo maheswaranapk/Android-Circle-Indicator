@@ -6,6 +6,7 @@ import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -13,6 +14,8 @@ import android.view.View;
  *
  */
 public class CircleIndicator extends View {
+
+    private static final String TAG = "CircleIndicator";
 
 	private static final int DEFAULT_INDICATOR_WIDTH = 80;
 	private static final int DEFAULT_INDICATOR_COLOR = 0xFF0000FF;
@@ -77,8 +80,22 @@ public class CircleIndicator extends View {
 		canvas.drawArc(circleBounds, -90, indicatorValue, false, outerCirclePaint);
 	}
 
+    /**
+     * Indicator Percentage specifies the percentage of progress in circle.
+     * The Indicator value should ranges between 0 to 100.
+     *
+     * 0   - Empty Circle
+     * 50  - Half Circle
+     * 100 - Full Circle
+     */
+	public void setProgressPercentage(float indicatorValue) {
 
-	public void setIndicator(float indicatorValue) {
+        if(indicatorValue < 0 || indicatorValue > 100) {
+            Log.d(TAG, "The Indicator value should ranges between 0 to 100.");
+            return;
+        }
+
+		indicatorValue = (float) (indicatorValue * 360 / 100);
 		this.indicatorValue = indicatorValue;
 	}
 	
@@ -90,12 +107,21 @@ public class CircleIndicator extends View {
         innerCirclePaint.setColor(innerFillColor);
     }
 
+    /**
+     * Set Diameter of the Progress Circle.
+     *
+     * @param diameter - Diameter of the Progress Circle.
+     */
     public void setIndicatorDiameter(int diameter) {
         getLayoutParams().width = diameter;
         getLayoutParams().height = diameter;
     }
 
-
+    /**
+     * Set Circle Progress Indicator Width.
+     *
+     * @param indicatorWidth - Indicator Width of the Progress Circle.
+     */
     public void setDefaultIndicatorWidth(int indicatorWidth) {
         this.indicatorWidth = indicatorWidth;
         innerCirclePaint.setStrokeWidth(indicatorWidth);

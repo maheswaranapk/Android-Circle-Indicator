@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mahes/Android/Android-Circle-Indicator/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/mahes/Android/Android-Circle-Indicator/app/build/intermediates/pre-dexed/debug/classes-82d85d2b3ace1013a308ac8bf7042da2dd6bb531.jar" />
+    </item>
+    <item
+        jar="/home/mahes/Android/Android-Circle-Indicator/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/mahes/Android/Android-Circle-Indicator/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-b65950befb72da832cbd82ec6a81a611824f1a72.jar" />
+    </item>
+    <item
+        jar="/home/mahes/Android/Android-Circle-Indicator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/mahes/Android/Android-Circle-Indicator/app/build/intermediates/pre-dexed/debug/classes-8094ed294f4b06fa72d72c1fb3fe693be978f398.jar" />
+    </item>
+    <item
+        jar="/home/mahes/Android/ETWater/Android-Circle-Indicator/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/mahes/Android/ETWater/Android-Circle-Indicator/app/build/intermediates/pre-dexed/debug/classes-0964bc14ea5b9e843fe5fb34a06013b6faa38169.jar" />
+    </item>
+    <item
+        jar="/home/mahes/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/mahes/Android/ETWater/Android-Circle-Indicator/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-7af9a3b1424af8ee67a79fbe3a668062a3496b8e.jar" />
+    </item>
+    <item
+        jar="/home/mahes/Android/ETWater/Android-Circle-Indicator/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/mahes/Android/ETWater/Android-Circle-Indicator/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-f4844e5aa6cc3e1f82b7e9ec4c97d1be91681846.jar" />
+    </item>
+    <item
+        jar="/home/mahes/Android/ETWater/Android-Circle-Indicator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/mahes/Android/ETWater/Android-Circle-Indicator/app/build/intermediates/pre-dexed/debug/classes-f1c7495f0d952d8d982694b6b1642fb87b177053.jar" />
+    </item>
+
+</items>

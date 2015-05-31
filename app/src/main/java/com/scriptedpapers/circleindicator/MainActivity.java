@@ -65,8 +65,16 @@ public class MainActivity extends ActionBarActivity {
 
                 cal.setTime(date);
 
+                /**
+                 *Indicator Percentage specifies the percentage of progress in circle.
+                 *
+                 * Seconds lies in range of 0 to 59.
+                 * Convert seconds to percentage and set as progress percentage.
+                 */
+                float secondsInPercentage = (float) (cal.get(Calendar.SECOND) * 100 / 59);
+
                 secondsTimer
-                        .setIndicator((float) (cal.get(Calendar.SECOND) * (360/60)));
+                        .setProgressPercentage(secondsInPercentage);
 
                 secondsTimer.invalidate();
 
