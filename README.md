@@ -26,6 +26,7 @@ In View,
             secondsTimer.setOuterRingColor(FILL_COLOR);
             secondsTimer.setDefaultIndicatorWidth(INDICATOR_WIDTH);
             secondsTimer.setIndicatorDiameter(indicatorDiameter);
+            secondsTimer.setProgressPercentage(secondsInPercentage);
 ```
 
 # **Output**

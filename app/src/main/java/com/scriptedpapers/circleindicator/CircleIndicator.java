@@ -97,14 +97,20 @@ public class CircleIndicator extends View {
 
 		indicatorValue = (float) (indicatorValue * 360 / 100);
 		this.indicatorValue = indicatorValue;
+
+        invalidate();
 	}
 	
 	public void setIndicatorRingColor(int indicatorLevelColor){
 		outerCirclePaint.setColor(indicatorLevelColor);
+
+        invalidate();
 	}
 
     public void setOuterRingColor(int innerFillColor){
         innerCirclePaint.setColor(innerFillColor);
+
+        invalidate();
     }
 
     /**
@@ -115,6 +121,8 @@ public class CircleIndicator extends View {
     public void setIndicatorDiameter(int diameter) {
         getLayoutParams().width = diameter;
         getLayoutParams().height = diameter;
+
+        invalidate();
     }
 
     /**
@@ -126,6 +134,8 @@ public class CircleIndicator extends View {
         this.indicatorWidth = indicatorWidth;
         innerCirclePaint.setStrokeWidth(indicatorWidth);
         outerCirclePaint.setStrokeWidth(indicatorWidth);
+
+        invalidate();
     }
 
 }

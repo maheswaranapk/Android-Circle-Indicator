@@ -76,8 +76,6 @@ public class MainActivity extends ActionBarActivity {
                 secondsTimer
                         .setProgressPercentage(secondsInPercentage);
 
-                secondsTimer.invalidate();
-
                 timeView.setText(new SimpleDateFormat("hh:mm:ss a zzz").format(date));
             }
         };
