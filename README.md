@@ -1,6 +1,13 @@
 # **Android-Circle-Indicator**
 This is a Simple Android Progress Circle Indicator.
 
+# **Features**
++ Set Progress Level.
++ Circle Diameter
++ Indicator Width
++ Indicator Color
++ Indicator Fill Color
+
 # **How To use**
 Copy **CircleIndicator.java** to the project.
 
