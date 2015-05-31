@@ -19,7 +19,7 @@ In View,
             secondsTimer.setOuterRingColor(FILL_COLOR);
             secondsTimer.setDefaultIndicatorWidth(INDICATOR_WIDTH);
             secondsTimer.setIndicatorDiameter(indicatorDiameter);
-            ```
+```
 
 # **Output**
 ![alt tag](https://github.com/maheswaranapk/Android-Circle-Indicator/blob/master/sample/CircleindicatorSample.gif)
